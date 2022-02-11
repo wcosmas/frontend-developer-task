@@ -7,6 +7,7 @@
       hide-footer
       v-model="modalShow"
       body-class="p-0"
+      validated
       size="sm"
     >
       <div class="header-section">
@@ -164,7 +165,7 @@ export default {
 
 .body-section {
   width: 100%;
-  padding: 20px;
+  padding: 10px 20px;
 }
 select {
   width: 100%;
@@ -187,7 +188,7 @@ input {
 .footer-section {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .footer-section button:nth-child(2) {

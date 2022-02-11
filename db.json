@@ -29,36 +29,6 @@
       "amount": "-3.543",
       "amount_wallet": "ETH",
       "amount_note": "Balance"
-    },
-    {
-      "id": 56,
-      "service": "Insuarance",
-      "service_icon": "briefcase-fill",
-      "service_icon_color": "#658ec7",
-      "color": "#e7eef8",
-      "service_type": "Property Coverage",
-      "wallet": "BTE Wallet",
-      "wallet_type": "Personal account",
-      "date": "7 Jun, 21",
-      "date_note": "Last Payment",
-      "amount": "700",
-      "amount_wallet": "BTE",
-      "amount_note": "Balance"
-    },
-    {
-      "id": 81,
-      "service": "Electricity",
-      "service_icon": "lightning",
-      "service_icon_color": "#FCBEA8",
-      "color": "#FFEFE9",
-      "service_type": "Utility Payments",
-      "wallet": "USDT Wallet",
-      "wallet_type": "Personal account",
-      "date": "7 Jun, 21",
-      "date_note": "Last Payment",
-      "amount": "9000",
-      "amount_wallet": "USDT",
-      "amount_note": "Balance"
     }
   ],
   "wallets": [

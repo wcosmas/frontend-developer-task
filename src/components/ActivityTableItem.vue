@@ -49,14 +49,15 @@ export default {
 
 <style scoped>
 .activity-table {
-  display: flex;
-  justify-content: space-between;
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr); */
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   margin-top: 10px;
 }
 
 .item-1 {
+ grid-column: 1 /  span 2;
   display: flex;
 }
 
