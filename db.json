@@ -1,0 +1,124 @@
+{
+  "activities": [
+    {
+      "id": 1,
+      "service": "Insuarace",
+      "service_icon": "briefcase-fill",
+      "service_icon_color": "#658ec7",
+      "color": "#e7eef8",
+      "service_type": "Property Coverage",
+      "wallet": "LTC Wallet",
+      "wallet_type": "Personal account",
+      "date": "7 Jun, 21",
+      "date_note": "Last Payment",
+      "amount": "-10.24",
+      "amount_wallet": "LTC",
+      "amount_note": "Balance"
+    },
+    {
+      "id": 2,
+      "service": "Electricity",
+      "service_icon": "lightning",
+      "service_icon_color": "#FCBEA8",
+      "color": "#FFEFE9",
+      "service_type": "Utility Payments",
+      "wallet": "ETH Wallet",
+      "wallet_type": "Personal account",
+      "date": "9 Jun, 21",
+      "date_note": "Last Payment",
+      "amount": "-3.543",
+      "amount_wallet": "ETH",
+      "amount_note": "Balance"
+    },
+    {
+      "id": 56,
+      "service": "Insuarance",
+      "service_icon": "briefcase-fill",
+      "service_icon_color": "#658ec7",
+      "color": "#e7eef8",
+      "service_type": "Property Coverage",
+      "wallet": "BTE Wallet",
+      "wallet_type": "Personal account",
+      "date": "7 Jun, 21",
+      "date_note": "Last Payment",
+      "amount": "700",
+      "amount_wallet": "BTE",
+      "amount_note": "Balance"
+    },
+    {
+      "id": 81,
+      "service": "Electricity",
+      "service_icon": "lightning",
+      "service_icon_color": "#FCBEA8",
+      "color": "#FFEFE9",
+      "service_type": "Utility Payments",
+      "wallet": "USDT Wallet",
+      "wallet_type": "Personal account",
+      "date": "7 Jun, 21",
+      "date_note": "Last Payment",
+      "amount": "9000",
+      "amount_wallet": "USDT",
+      "amount_note": "Balance"
+    }
+  ],
+  "wallets": [
+    {
+      "id": 1,
+      "coin": "BTE",
+      "coin_fullname": "Bitcoin",
+      "percentage": "37",
+      "new_percentage": "2.5",
+      "color": "#fef3f1",
+      "icon": "cash",
+      "icon_color": "#fb9584"
+    },
+    {
+      "id": 2,
+      "coin": "DAI",
+      "coin_fullname": "Dai",
+      "percentage": "23",
+      "new_percentage": "+7.2",
+      "color": "#FCF6DF",
+      "icon": "handbag",
+      "icon_color": "#EBCA52"
+    },
+    {
+      "id": 3,
+      "coin": "XRP",
+      "coin_fullname": "Ripple",
+      "percentage": "20",
+      "new_percentage": "-3.1",
+      "color": "#E1F4F8",
+      "icon": "wallet",
+      "icon_color": "#61C1D9"
+    },
+    {
+      "id": 4,
+      "coin": "USDT",
+      "coin_fullname": "Tether",
+      "percentage": "17",
+      "new_percentage": "+1.8",
+      "color": "#E2F8F2",
+      "icon": "server",
+      "icon_color": "#A7EAD8"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "service": "Insuarance",
+      "service_type": "Property Coverage",
+      "service_icon": "briefcase-fill",
+      "service_icon_color": "#658ec7",
+      "color": "#e7eef8"
+    },
+    {
+      "id": 2,
+      "service": "Electricity",
+      "service_type": "Utility Payments",
+      "service_icon": "lightning",
+      "service_icon_color": "#FCBEA8",
+      "color": "#FFEFE9"
+    }
+  ]
+}
