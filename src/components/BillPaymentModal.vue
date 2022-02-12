@@ -105,10 +105,8 @@ export default {
       event.preventDefault();
       let randomId = Math.floor(Math.random() * 101);
       const filterRes = await filterService(this.form.service);
-      console.log(filterRes);
       if (filterRes.status == 200) {
         let filteredService = filterRes.data;
-        console.log(filteredService, randomId);
         let data = {
           id: randomId,
           service: filteredService[0].service,
@@ -130,7 +128,6 @@ export default {
           this.$store.dispatch("addActivity", data);
           this.closeModal();
           this.onReset();
-          this.id = this.id + 1;
         } else {
           alert("An Error occurred, Try Again!!");
           this.onReset();
