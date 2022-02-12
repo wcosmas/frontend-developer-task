@@ -189,6 +189,7 @@ input {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
+  margin-bottom: 15px;
 }
 
 .footer-section button:nth-child(2) {

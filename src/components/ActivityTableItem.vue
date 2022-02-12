@@ -49,15 +49,16 @@ export default {
 
 <style scoped>
 .activity-table {
-  /* display: flex;
-  justify-content: space-between; */
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* display: grid;
+  grid-template-columns: repeat(5, 1fr); */
   margin-top: 10px;
 }
 
 .item-1 {
- grid-column: 1 /  span 2;
+  flex: 2;
   display: flex;
 }
 
@@ -91,6 +92,7 @@ export default {
 }
 
 .item-2 {
+  flex: 2;
   display: flex;
   flex-direction: column;
 }
@@ -105,6 +107,7 @@ export default {
 }
 
 .item-3 {
+  flex: 1;
   display: flex;
   flex-direction: column;
 }
@@ -119,6 +122,7 @@ export default {
 }
 
 .item-4 {
+  flex: 1;
   display: flex;
   flex-direction: column;
 }
